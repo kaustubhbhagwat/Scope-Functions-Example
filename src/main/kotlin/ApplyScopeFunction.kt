@@ -8,7 +8,16 @@ fun main() {
         name = "Kaustubh"
         age = 30
     }
-    println(person.name + person.age)
+    with(person){
+        println(person.name + person.age)
+    }
+
+    person.also {
+        it.name = "KB"
+        it.age =31
+        println("${it.name}${it.age}")
+    }
+
 
 }
 
