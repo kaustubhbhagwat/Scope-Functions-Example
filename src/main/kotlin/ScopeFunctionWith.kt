@@ -7,7 +7,7 @@ private class Person {
 fun main() {
     /** Scope function 'with'
         Property 1: Refer to the context of the object by using 'this'
-        Property 1: Return value is 'lambda result'
+        Property 2: Return value is the 'lambda result'
      */
 
     val person = Person()
