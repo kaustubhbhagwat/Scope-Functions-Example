@@ -1,6 +1,6 @@
 fun main() {
 
-    /** Scope function 'with'
+    /** Scope function 'apply'
     Property 1: Refer to the context of the object by using 'this'
     Property 2: Return value is the context object
      */
