@@ -5,9 +5,9 @@ fun main() {
     Property 2: Return value is the lambda result
      */
 
-    val person: Person2 = Person2()
+    val person = Person2()
 
-    val personDetails = person?.run {
+    val personDetails = person.run {
         this.age = 30
         this.name = "Kaustubh"
 
